@@ -11,6 +11,17 @@ def clearEntries():
 def submitEntries():
     username = uEV.get()
     password = pEV.get()
+    if username == upd[username]:
+        if password = upd[password]:
+            print("Logged in!")
+            break
+        else:
+            print("Wrong password!")
+            break
+    else:
+        print("Wrong username!")
+        break
+         
     print(username)
     print(password)
 lL = Label(root, text = "Please log in.").grid(row=0,column=0,columnspan=2)
